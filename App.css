@@ -1,0 +1,72 @@
+ .app {
+  background-color: rgb(167, 234, 240);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+}
+
+.food-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 65%;
+  
+}
+
+.food-card {
+  border: 2px solid #070606;
+  padding: 10px;
+  width: calc(20% - 20px);
+  margin-bottom: 20px;
+  background-color: rgb(227, 203, 215);
+  
+}
+
+.wishlist-and-details {
+  width: 35%;
+  margin-left: 20px;
+  
+}
+
+h1 {
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left: 25%; 
+  font-style: italic;
+}
+
+.wishlist {
+  border: 2px solid #0a0707;
+  padding: 10px;
+  background-color: aquamarine;
+  font-size: 24px;
+  
+}
+
+.selected-food {
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #0b0a0a;
+  background-color: #cce19e;
+  font-size: 18px;
+}
+
+button {
+  margin-top: 10px;
+  color: rgb(242, 240, 239);
+  background-color: rgb(36, 26, 26);
+}
+
+.full-width {
+  width: 100%;
+}
+
+h2{
+  text-align: center;
+}
